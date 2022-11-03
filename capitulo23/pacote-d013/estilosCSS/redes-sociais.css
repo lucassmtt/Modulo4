@@ -37,3 +37,37 @@ iframe#tela{
     height:469px
 
 }
+
+section.sociais {
+    text-align: right;
+}
+
+section.sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section.sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.507);
+    transform: translate(-3px, -4px);
+    box-shadow: 4px 4px 10px;
+    transition: transform 0.4s border 1s;
+}
+
+img#home{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
+}
+
+img#insta{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
+}
+
+img#git{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
+}
+
+img#twitter{
+    box-shadow: 3px 3px 1px rgba(3, 8, 14, 0.664);
+}
