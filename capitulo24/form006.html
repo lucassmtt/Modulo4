@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 5</title>
+</head>
+<body>
+    <h1>Elementos Color, range, file</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Coloração</legend>
+            <p><input type="color" name="cor" id="corid"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Nível de satisfação</legend>
+            <input type="range" name="sati" id="satiid" min="0" max="6" value="0">
+        </fieldset>
+        <fieldset>
+            <legend>Foto de perfil</legend>
+            <p>
+                <label for="fileid"></label>
+                <input type="file" name="file" id="fileid">
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
+</body>
+</html>
