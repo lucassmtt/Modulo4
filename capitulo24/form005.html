@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 5</title>
+</head>
+<body>
+    <h1>Utilização de Input CheckBox and Radio</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sex" id="mascid" checked value="m">
+            <label for="mascid">Masculino</label>
+            <br>
+            <input type="radio" name="sex" id="femid">
+            <label for="femid">Feminino</label value="f">
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <label for="futid">Futebol</label>
+            <input type="checkbox" name="fut" id="futid" checked> 
+            <br>
+            <label for="baskid">Basquete</label>
+            <input type="checkbox" name="bask" id="baskid" checked>
+            <br>
+            <label for="voleiid">Vôlei</label>
+            <input type="checkbox" name="volei" id="voleiid"> 
+            <br>
+            <label for="paid">Polo Aquático</label>
+            <input type="checkbox" name="pa" id="paid">
+            <br>
+            <label for="natid">Natação</label>
+            <input type="checkbox" name="nat" id="natid">
+            <br>
+            <label for="skateid">Skate</label>
+            <input type="checkbox" name="skate" id="skateid" checked>
+        </fieldset>
+        <p>
+            <input type="reset" value="Apagar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
