@@ -15,13 +15,13 @@ header{
 }
 
 header > h1{
-    padding: 10px;
+    padding: 50px;
 }
 
 menu{
-    padding: 0px;        
-    background-color: lightslategray;
-    display: none;
+    padding: 30px;
+    width: 300px;
+    margin: auto;
 }
 
 span#ham{
@@ -32,18 +32,17 @@ span#ham{
 }
 
 span#ham:hover{
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(116, 116, 116);
 }
 
 menu > ul{
     list-style-type: none;
-    padding: 0px;
 }
 
 li{
     border: 1px solid rgba(0, 0, 0, 0.438);
-    padding: 5px;
-    margin: 2px;
+    padding: 4px;
+    border-radius: 15px;
 }
 
 menu > ul > li > a{
@@ -55,6 +54,11 @@ menu > ul > li > a{
     color: rgb(26, 30, 34);
 
 }
+
+menu > ul > li:hover{
+        background-color: whitesmoke;
+        color: black;
+    }
 
 a:hover{
     text-decoration: underline;
